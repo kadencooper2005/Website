@@ -1,2 +1,2 @@
 # Website
-beginner firsts website made with html/CSS
+first website made with html/CSS
