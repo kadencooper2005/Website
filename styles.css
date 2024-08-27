@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    
+}
+
+header {
+    background-color: #1f2937;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo {
+    color: white; 
+    font-size: 16px;
+    font-weight: 800;
+}
+
+header nav a {
+    color: rgb(182, 182, 182);
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Main Section */
+.main-section {
+    background-color: #1f2937;
+    color: white;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-section .text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-section .text-content p {
+    margin-bottom: 1.5rem;
+    color: #aaa;
+}
+
+.main-section button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+.main-section .image-placeholder {
+    background-color: #6f6f6f;
+    border-radius: 9px;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+
+/* Info section */
+.info-section {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.info-section h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.info-section .info-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-section .info-card {
+    background-color: white;
+    border: 5px solid #2563eb;
+    border-radius: 9px;
+    width: 150px;
+    padding: 1rem;
+}
+
+.info-section .info-image {
+    height: 100px;
+    margin-bottom: 1rem;
+    background-color: grey;
+    border-radius: 9px;
+}
+
+
+/* Quote section */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 1rem 12px;
+    text-align: center;
+    font-style: italic;
+    height: 300px;
+}
+
+.quote-section .quote-font {
+    font-weight: 500;
+    font-size: 30px;
+    padding: 50px;
+}
+
+/* Call to action Section */
+.cta-section {
+    background-color: #2563eb;
+    color: white;
+    padding: 2rem;
+    margin: 60px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.cta-section button {
+    background-color: #2563eb;
+    color: #ffffff;
+    border-color: white;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cta-section .h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #1f2937;
+    color: rgb(87, 87, 87);
+    text-align:center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+
+
+
+
+
